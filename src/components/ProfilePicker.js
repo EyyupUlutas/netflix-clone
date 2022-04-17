@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../styles/profilepicker.css";
 import logo from "../assets/logo.png";
-import plus from "../assets/plus.png";
+import plus from "../assets/plus-icon.png";
 class ProfilePicker extends Component {
   render() {
     return (

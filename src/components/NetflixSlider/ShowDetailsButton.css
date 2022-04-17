@@ -1,20 +1,23 @@
 .show-details-button {
-  position: absolute;
+  /* position: absolute; */
   bottom: 0;
   left: 0;
   right: 0;
   opacity: 0;
-  display: none;
+  width: 100%;
+  /* background-color: red; */
   transition: opacity 300ms ease 100ms;
   background: transparent;
   border: 0;
   outline: none;
-  width: 100%;
+  display: none;
+
 }
 
-.show-details-button span {
-  display: block;
-  width: 14px;
-  margin: 0 auto;
+.show-details-button div {
+  display: flex;
+  /* background-color: red; */
+  /* margin: 0 auto; */
   color: white;
+  z-index: 99;
 }

@@ -1,63 +1,85 @@
 import React, { Component } from "react";
 import Slider from "../components/NetflixSlider";
+import Header from "../components/Header";
 
 const movies = [
   {
     id: 1,
     image:
-      "https://i0.wp.com/dialmformovie.net/wp-content/uploads/2020/11/Queens-Gambit-DMFM-Kapak.jpg?fit=1589%2C1689&ssl=1",
-    imageBg: "/images/slide1b.webp",
+      "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWR1ANgH8wtkL9pgCklNdAXcNwOzA18jzu3CuKGLJlUu6AzxYUDBDXrpVeez_SpnTvdR8X8SocvoizM3fUw1xjU9yjMfFYMlhOOd2R7UHfcxvgaEw9h4LFWdTZKA.jpg?r=069",
     title: "1983",
   },
   {
     id: 2,
     image:
-      "https://i0.wp.com/dialmformovie.net/wp-content/uploads/2020/11/Queens-Gambit-DMFM-Kapak.jpg?fit=1589%2C1689&ssl=1",
-    imageBg: "/images/slide2b.webp",
+      "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABdVugdelWK-bfNRS2bQOsg4vIKG-p2McqdMdut1cF3ODNigIO88O3bLNGWDo2W81RlLQLVaekoBFga83ububEnt5O77W26h2kX-FqgvLJEHRF3kbdtyfvKcB7D4m.jpg?r=dfc",
     title: "Russian doll",
   },
+
   {
     id: 3,
     image:
-      "https://i0.wp.com/dialmformovie.net/wp-content/uploads/2020/11/Queens-Gambit-DMFM-Kapak.jpg?fit=1589%2C1689&ssl=1",
+      "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABdnidv5WE4OU2lzrJYba-9R-97gYHc-z086xp5-ugM0X9pwDKyXMYRaqxcnUR-msi4nsSyXY2GmqKZPQNGayg1HvETI.webp?r=e35",
     imageBg: "/images/slide3b.webp",
     title: "The rain",
   },
   {
     id: 4,
     image:
-      "https://i0.wp.com/dialmformovie.net/wp-content/uploads/2020/11/Queens-Gambit-DMFM-Kapak.jpg?fit=1589%2C1689&ssl=1",
-    imageBg: "/images/slide4b.webp",
-    title: "Sex education",
+      "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWR1ANgH8wtkL9pgCklNdAXcNwOzA18jzu3CuKGLJlUu6AzxYUDBDXrpVeez_SpnTvdR8X8SocvoizM3fUw1xjU9yjMfFYMlhOOd2R7UHfcxvgaEw9h4LFWdTZKA.jpg?r=069",
+    title: "1983",
   },
   {
     id: 5,
     image:
-      "https://i0.wp.com/dialmformovie.net/wp-content/uploads/2020/11/Queens-Gambit-DMFM-Kapak.jpg?fit=1589%2C1689&ssl=1",
-    imageBg: "/images/slide5b.webp",
-    title: "Elite",
+      "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABdVugdelWK-bfNRS2bQOsg4vIKG-p2McqdMdut1cF3ODNigIO88O3bLNGWDo2W81RlLQLVaekoBFga83ububEnt5O77W26h2kX-FqgvLJEHRF3kbdtyfvKcB7D4m.jpg?r=dfc",
+    title: "Russian doll",
   },
+
   {
     id: 6,
     image:
-      "https://i0.wp.com/dialmformovie.net/wp-content/uploads/2020/11/Queens-Gambit-DMFM-Kapak.jpg?fit=1589%2C1689&ssl=1",
-    imageBg: "/images/slide6b.webp",
-    title: "Black mirror",
+      "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABdnidv5WE4OU2lzrJYba-9R-97gYHc-z086xp5-ugM0X9pwDKyXMYRaqxcnUR-msi4nsSyXY2GmqKZPQNGayg1HvETI.webp?r=e35",
+    imageBg: "/images/slide3b.webp",
+    title: "The rain",
   },
 ];
 
 class HomePage extends Component {
   render() {
     return (
-      <div style={{ display: "flex", justifyContent: "center" }}>
-        {" "}
-        <Slider>
-          {movies.map((movie) => (
-            <Slider.Item movie={movie} key={movie.id}>
-              item1
-            </Slider.Item>
-          ))}
-        </Slider>
+      <div className="flex justify-center flex-col ">
+        <Header />
+        <div className="pt-10">
+          <Slider>
+            {movies.map((movie) => (
+              <Slider.Item movie={movie} key={movie.id}>
+                item1
+              </Slider.Item>
+            ))}
+          </Slider>
+          <Slider>
+            {movies.map((movie) => (
+              <Slider.Item movie={movie} key={movie.id}>
+                item1
+              </Slider.Item>
+            ))}
+          </Slider>
+          <Slider>
+            {movies.map((movie) => (
+              <Slider.Item movie={movie} key={movie.id}>
+                item1
+              </Slider.Item>
+            ))}
+          </Slider>
+          <Slider>
+            {movies.map((movie) => (
+              <Slider.Item movie={movie} key={movie.id}>
+                item1
+              </Slider.Item>
+            ))}
+          </Slider>
+        </div>
       </div>
     );
   }

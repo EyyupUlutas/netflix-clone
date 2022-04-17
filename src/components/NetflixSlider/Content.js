@@ -1,5 +1,5 @@
 import React from "react";
-import IconCross from "./../Icons/IconCross";
+// import IconCross from "./../Icons/IconCross";
 import "./Content.css";
 
 const Content = ({ movie, onClose }) => (
@@ -22,7 +22,7 @@ const Content = ({ movie, onClose }) => (
         </div>
       </div>
       <button className="content__close" onClick={onClose}>
-        <IconCross />
+        {/* <IconCross /> */}
       </button>
     </div>
   </div>

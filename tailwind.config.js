@@ -13,6 +13,7 @@ module.exports = {
         "netflix-red": "#DB0404",
         "netflix-red-2": "#830908",
         "netflix-black": "#1A0D0D",
+        "netflix-black-2": "#181818",
         "netflix-gray": "#7B7C7C",
         "netflix-gray-2": "#EDEDEB",
       },
