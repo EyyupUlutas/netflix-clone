@@ -4,7 +4,7 @@
   margin: 0 2px;
   position: relative;
   height: 150px;
-
+  z-index: 999;
 }
 
 .item img {

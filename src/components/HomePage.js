@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Slider from "../components/NetflixSlider";
 import Header from "../components/Header";
+import HomePreview from "./HomePreview";
 
 const movies = [
   {
@@ -48,16 +49,24 @@ const movies = [
 class HomePage extends Component {
   render() {
     return (
-      <div className="flex justify-center flex-col ">
+      <div className="flex justify-center flex-col pb-44">
         <Header />
-        <div className="pt-10">
-          <Slider>
-            {movies.map((movie) => (
-              <Slider.Item movie={movie} key={movie.id}>
-                item1
-              </Slider.Item>
-            ))}
-          </Slider>
+        <div>
+          <HomePreview />
+          <div
+            style={{
+              position: "absolute",
+              bottom: -100,
+            }}
+          >
+            <Slider>
+              {movies.map((movie) => (
+                <Slider.Item movie={movie} key={movie.id}>
+                  item1
+                </Slider.Item>
+              ))}
+            </Slider>
+          </div>
           <Slider>
             {movies.map((movie) => (
               <Slider.Item movie={movie} key={movie.id}>
