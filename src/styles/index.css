@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css");
+
+@font-face {
+  font-family: NetflixSansBold;
+  src: url(../fonts/NetflixSansBold.ttf);
+}
+
+@font-face {
+  font-family: NetflixSansLight;
+  src: url(../fonts/NetflixSansLight.ttf);
+}
+
+@font-face {
+  font-family: NetflixSansMedium;
+  src: url(../fonts/NetflixSansMedium.ttf);
+}
+
+@font-face {
+  font-family: NetflixSansRegular;
+  src: url(../fonts/NetflixSansRegular.ttf);
+}
+
+@font-face {
+  font-family: NetflixSansThin;
+  src: url(../fonts/NetflixSansThin.ttf);
+}
+
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  /* font-family: NetflixSansBlack; */
+  font-family: 'Netflix Sans',
+    'Helvetica Neue',
+    Helvetica,
+    Arial,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: #141414; */
+
+  color: gray;
+
+}
+
+
+
+.App {
+  width: 100vw;
+  height: 100vh;
+}

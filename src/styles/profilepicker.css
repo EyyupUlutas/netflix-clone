@@ -1,0 +1,10 @@
+.container:hover {
+    color: #EDEDEB;
+}
+
+.container:hover>div:first-child {
+    outline-width: 2px;
+    outline-style: solid;
+    outline-color: #EDEDEB;
+    background-color: #EDEDEB;
+}
