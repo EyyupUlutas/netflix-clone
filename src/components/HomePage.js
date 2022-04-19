@@ -9,6 +9,21 @@ const movies = [
     image:
       "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWR1ANgH8wtkL9pgCklNdAXcNwOzA18jzu3CuKGLJlUu6AzxYUDBDXrpVeez_SpnTvdR8X8SocvoizM3fUw1xjU9yjMfFYMlhOOd2R7UHfcxvgaEw9h4LFWdTZKA.jpg?r=069",
     title: "1983",
+    metadata: {
+      topics: [
+        { tid: 1, tname: "Duygusal" },
+        { tid: 2, tname: "Ürkütücü" },
+        { tid: 3, tname: "Heyecan Verici" },
+        { tid: 4, tname: "Tüyler Ürpetici" },
+        { tid: 5, tname: "Süper Zeka" },
+      ],
+      matchScore: "%99 Eşleşme",
+      maturityNumber: "18",
+      duration: "Mini Dizi",
+      movieDesc: `1950'lerde bir yetimhanede, küçük bir kız müthiş bir satranç
+            yeteneği sergiler. Ancak yıldızlığa uzanan umulmadık yolculuğunda
+            bağımlılıkla mücadele etmek zorunda kalır.`,
+    },
   },
   {
     id: 2,

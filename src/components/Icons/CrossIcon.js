@@ -1,6 +1,6 @@
 import React from "react";
 
-const AddListIcon = ({ width, height, color }) => (
+const CrossIcon = ({ width, height, color }) => (
   <svg
     width={width}
     height={height}
@@ -12,10 +12,10 @@ const AddListIcon = ({ width, height, color }) => (
     <path
       fill-rule="evenodd"
       clip-rule="evenodd"
-      d="M11 2V11H2V13H11V22H13V13H22V11H13V2H11Z"
+      d="M2.29297 3.70706L10.5859 12L2.29297 20.2928L3.70718 21.7071L12.0001 13.4142L20.293 21.7071L21.7072 20.2928L13.4143 12L21.7072 3.70706L20.293 2.29285L12.0001 10.5857L3.70718 2.29285L2.29297 3.70706Z"
       fill={color}
     ></path>
   </svg>
 );
 
-export default AddListIcon;
+export default CrossIcon;

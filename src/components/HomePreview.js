@@ -21,7 +21,7 @@ class HomePreview extends Component {
             bağımlılıkla mücadele etmek zorunda kalır.
           </span>
           <div className="flex flex-row">
-            <button className="flex bg-white px-6 py-2 rounded-md hover:bg-opacity-80">
+            <button className="flex bg-white px-6 py-2 rounded-md hover:bg-opacity-80 items-center">
               <PlayIcon width={25} height={25} color={"black"} />
               <span className="ml-3 text-black  font-netflixsansmedium text-md">
                 Oynat

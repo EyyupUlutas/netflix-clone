@@ -15,7 +15,7 @@ module.exports = {
         "netflix-black": "#1A0D0D",
         "netflix-black-2": "#181818",
         "netflix-gray": "#7B7C7C",
-        "netflix-gray-2": "#EDEDEB",
+        "netflix-gray-2": "#2f2f2f",
       },
 
       fontFamily: {
@@ -25,7 +25,11 @@ module.exports = {
         netflixsansregular: ["NetflixSansRegular", "sans-serif"],
         netflixsansthin: ["NetflixSansThin", "sans-serif"],
       },
+
+      maxHeight: {
+        netflix: "65em",
+      },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/line-clamp")],
 };

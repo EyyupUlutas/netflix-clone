@@ -2,7 +2,6 @@ import React from "react";
 import cx from "classnames";
 import SliderContext from "./context";
 import ShowDetailsButton from "./ShowDetailsButton";
-import Mark from "./Mark";
 import "./Item.css";
 
 const Item = ({ movie }) => (
@@ -18,8 +17,11 @@ const Item = ({ movie }) => (
           })}
         >
           <img src={movie.image} alt="" />
-          <ShowDetailsButton onClick={() => onSelectSlide(movie)} />
-          {isActive && <Mark />}
+          <ShowDetailsButton
+            movie={movie}
+            onClick={() => onSelectSlide(movie)}
+          />
+          {isActive && <div>aasdasd</div>}
         </div>
       );
     }}
