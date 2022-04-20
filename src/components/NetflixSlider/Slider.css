@@ -10,6 +10,7 @@
   z-index: 3;
   width: 100%;
 
+
 }
 
 .slider:not(.slider--open) .item:hover .show-details-button {

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Slider from "../components/NetflixSlider";
 import Header from "../components/Header";
 import HomePreview from "./HomePreview";
+import Footer from "./Footer";
 
 const movies = [
   {
@@ -64,7 +65,7 @@ const movies = [
 class HomePage extends Component {
   render() {
     return (
-      <div className="flex justify-center flex-col pb-44">
+      <div className="flex justify-center flex-col pb-6">
         <Header />
         <div>
           <HomePreview />
@@ -104,6 +105,8 @@ class HomePage extends Component {
             ))}
           </Slider>
         </div>
+
+        <Footer />
       </div>
     );
   }

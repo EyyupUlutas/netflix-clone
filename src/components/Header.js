@@ -57,7 +57,7 @@ class Header extends Component {
           <div className="ml-6">
             <img src={notificationIcon} width={20} height={20}></img>
           </div>
-          <div className="flex  items-center ml-6">
+          <div className="flex group items-center ml-6">
             <img
               src="https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABbU9eqkBgvU1DIIchQhvQn9qyCbirDHVaDIdYNRKmqlLfqAkOLSvufpEGOAYDKtlG0ie0L0oP-pd-UFx4MiOB2I9rWX_.png?r=9fe"
               width={30}
@@ -69,7 +69,7 @@ class Header extends Component {
                 src={downArrowIcon}
                 width={15}
                 height={15}
-                className="rounded-sm"
+                className="rounded-sm group-hover:rotate-180 transition-all duration-400	"
               ></img>
             </div>
           </div>

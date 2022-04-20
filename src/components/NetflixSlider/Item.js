@@ -16,12 +16,11 @@ const Item = ({ movie }) => (
             "item--open": isActive,
           })}
         >
-          <img src={movie.image} alt="" />
+          <img src={movie.image} className="flex-shrink-0" alt="" />
           <ShowDetailsButton
             movie={movie}
             onClick={() => onSelectSlide(movie)}
           />
-          {isActive && <div>aasdasd</div>}
         </div>
       );
     }}
