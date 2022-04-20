@@ -7,10 +7,8 @@
   display: flex;
   padding: 0 55px;
   transition: transform 300ms ease 100ms;
-  z-index: 3;
+  /* z-index: auto */
   width: 100%;
-
-
 }
 
 .slider:not(.slider--open) .item:hover .show-details-button {
@@ -19,13 +17,14 @@
 }
 
 .slider:not(.slider--open) .item:hover {
-  transform: scale(1.2) !important;
+  transform: scale(1.3) !important;
+  z-index: 1;
 }
 
 .slider:not(.slider--open):hover .item {
-  transform: translateX(-10%);
+  /* transform: translateX(-10%); */
 }
 
 .slider:not(.slider--open) .item:hover~.item {
-  transform: translateX(10%);
+  /* transform: translateX(10%); */
 }

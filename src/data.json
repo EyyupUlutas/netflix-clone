@@ -1,0 +1,90 @@
+[{
+        "id": 1,
+
+        "name": "The Queen's Gambit",
+        "description": "1950'lerde bir yetimhanede, küçük bir kız müthiş bir satranç yeteneği sergiler. Ancak yıldızlığa uzanan umulmadık yolculuğunda bağımlılıkla mücadele etmek zorunda kalır.",
+        "image": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWR1ANgH8wtkL9pgCklNdAXcNwOzA18jzu3CuKGLJlUu6AzxYUDBDXrpVeez_SpnTvdR8X8SocvoizM3fUw1xjU9yjMfFYMlhOOd2R7UHfcxvgaEw9h4LFWdTZKA.jpg?r=069",
+        "detailimage": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABQgJ1kUszVI5TXkfe2kYUq8LvPR-dOoN_BssDB5VbhORkZlVpeDpseeRTjPwMm-uw3Y4wDWbPoDv-QCSbOomBXZ4KWXI.webp?r=ec4",
+        "movietextimage": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABcKrFBGTCBvScMtWc-og890uVGAY17bX1Ubji7aF45di0ImJWVrTpv3uMzv7A_Ka113nAT8MKrcF7NbCgmlsZuXrWapkT68Qoq9B92KjEGxv_l-OTBIwV5t5DjxFPn9AaiB18Bsh76OyFJaNdJKWOKK9xWR9kQllQ_qMx9_dKO_QsA.png?r=a7f",
+        "duration": "Mini Dizi",
+        "maturitynumber": "18",
+        "specificratingreason": "cinsellik, argo, madde kullanımı, intihar",
+        "matchscore": "%98 Eşleşme",
+        "release": "2020",
+
+        "sections": [{
+                "image": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABV3RMkZD5g7zqn9AyxOJkBQmoJmgpbTCHW3OgNjlLcnQNV0i3MEFrBjHAbXlEhwCiPiYdHxeLIEupFsH82LLSRN2xmaiTnHcjBWPmVErpdabnV7F.jpg?r=4e3",
+                "title": "Açılışlar",
+                "description": "9 yaşındayken yetimhaneye gönderilen Beth olağanüstü bir satranç becerisi geliştirir. Ancak çocuklara verilen yeşil sakinleştiriciye karşı bağımlılığı da giderek artar.",
+                "duration": "59 dk."
+            },
+            {
+                "image": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABYVP3LRNNLsnuWm0GwdFeuE8jLjEH7GPBTJCg5AF2SDaRuuj2F2twEwCFw8WIcPi3W4Cr4eupzTPrYmUuYLBdmt1cevESM2TQy-TNHQPQg5F_nMw.jpg?r=0e3",
+                "title": "Değişimler",
+                "description": "Bir anda kendini banliyödeki kafa karıştırıcı yeni yaşamın içinde bulan ergen Beth, lisedeki sınıf arkadaşlarını inceler ve bir satranç turnuvasına katılma planı yapar.",
+                "duration": "65 dk."
+            },
+            {
+                "image": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABXqn90WCYJ0dalvn2ZA0CYAPqJkZcMmwwqQJT65IMLZuS5H0TtHw9A8mMt4rwNCheztnMqwdQiFUwC7bqwZyTq0R9O59eXFCXEy60_VjbPwbD_ad.jpg?r=1bc",
+                "title": "Duble Piyonlar",
+                "description": "Cincinnati yolculuğunun ardından Beth ve annesini yoğun bir seyahat programı beklemektedir. Basından büyük ilgi gören Beth ise gözünü Las Vegas'taki ABD Açık'a diker.",
+                "duration": "65 dk."
+            }
+        ],
+
+        "contents": ["Samimi", "Duygusal"],
+        "genres": ["Kitaplardan Uyarlanan Diziler"],
+        "creators": ["Scott Frank", "Allan Scott"],
+        "cast": ["Anya Taylor-Joy", "Bill Camp", "Marielle Heller", "Thomas Brodie-Sangster"]
+    },
+    {
+        "id": 2,
+        "name": "The Walking Dead",
+        "description": "Zombi kıyametinin ardından hayatta kalanlar, birlikte verdikleri ölüm kalım mücadelesinde insanlığa karşı duydukları umuda tutunur.",
+        "image": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABSgNrlV4WErF5jiAU2r4lbb92IcVRyJ_ETU5UtyawqBkTaCfqhSoihOnFH5RsnJpl5wb58j9A1POYatTC1qRvO1SfXI.webp?r=5cc",
+        "detailimage": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABVyBE5yO7B9yzN_hZE907P99mYmHbNujVRJ-qmrv39qrK9Pxu6FR33V5_qBWQbCcgrhAc9JnVdD6NQkOW23ABKr2Nh-_.webp?r=a57",
+        "movietextimage": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABbMy4Vyb2cggFDovtz-yStnxcLNho5VRUpe06Wg5rzGPFft1tSWY2ZC-BTkP5KOvz_4UIAVSdFf16wijBTyJBm_9EZlWrGoQzUo.webp?r=49b",
+        "duration": "10 Sezon",
+        "maturitynumber": "18",
+        "specificratingreason": "şiddet, cinsellik",
+        "matchscore": "",
+        "release": "2019",
+
+        "sections": [{
+                "image": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABaCTDEW9azn22zrEXQFldC6JAdRj_8WV2CATFyENIFczdtJVn0gYeDt41QsJWuajRMYJBFrTyQmws5GMOCkmHPd8Mciufxk2swN3zG8Ty7g3Exkb.webp?r=9e3",
+                "title": "Günler Sonra",
+                "description": "Rick, yürüyen ölülerin dehşet saçtığı bir dünyada ailesini arar. Morgan ve Duane, Rick'in hayatta kalmak için yeni kuralları öğrenmesine yardım eder.",
+                "duration": "45 dk."
+            },
+            {
+                "image": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABUeIqfsFYLhIyM5hQc5HFWiNMoJmh1ng6wIHhj3eylrpo2J7joTp3QlNeS1DCIm7KWi09P264v5QEKQHqn1Os8TrFep7QlxYsfVZQWRlqBeMmRPm.webp?r=723",
+                "title": "Bağırsaklar",
+                "description": "Farkında olmadan aylakların hayatta kalan bir grubu kapana kıstırmasına sebep olan Rick, yaşayan ölülerden çok daha tehlikeli bir düşmanla yüzleşmelidir.",
+                "duration": "42 dk."
+            },
+            {
+                "image": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABS8pVw7jdRHXakQdOCvSg10UlZB_rHuO6m2uGNH2ONWxJqrIzqtMzHs-xCiCWbE9KGgaXhjr08Agn_q7UtZCVGWVtgM3-NmO1Pu_EdHoTq7oaxT5.webp?r=e02",
+                "title": "Kurbağalara Anlat",
+                "description": "Rick, silah çantasını almak ve birinin hayatını kurtarmak için Atlanta'ya döner. Lori ve Shane, ölü olduğunu sandıkları birinin geri dönmesiyle baş etmek zorunda kalır.",
+                "duration": "43 dk."
+            },
+            {
+                "image": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABZjAzsejpdEFihoDPVxnoXPc4eFmseKewWEbWAt6LVlYrwgxMcxDvqlcFPWALzBFIhackAhyc3zEwomyZsbeKrO0N7MxodHhm9msfe1EddO52XBy.webp?r=499",
+                "title": "Çete",
+                "description": "İşler ters gidince Rick'in Atlanta görevi tehlikeye girer. Kampta Jim endişe verici hareketler sergilemeye başlar.",
+                "duration": "43 dk."
+            },
+            {
+                "image": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABQRnhVvt4MqBKYRUIJVBSWaQyTsMqQtMwKW349yVjMWH2iSjBibaH8Zd5vCoIk5JpBcMkX0HdBitcrOZP6kSQ8anuNvWKcmUpg1godP6k5CzEEwD.webp?r=690",
+                "title": "Wildfire",
+                "description": "Saldırının ardından Rick, grubu CDC'ye götürür. Jim, korkunç ve hayati bir karar almalıdır.",
+                "duration": "43 dk."
+            }
+        ],
+
+        "contents": ["Tehditkâr"],
+        "genres": ["Çizgi Romanlardan Uyarlanan Diziler", "Drama Dizileri", "Korku Temalı Diziler", "Amerikan Dizileri", "Aksiyon ve Macera Dizileri"],
+        "creators": [],
+        "cast": ["Andrew Lincoln", "Steven Yeun", "Norman Reedus", "Chandler Riggs", "Melissa McBride"]
+    }
+]

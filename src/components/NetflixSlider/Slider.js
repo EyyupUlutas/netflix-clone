@@ -8,7 +8,7 @@ import useSliding from "./useSliding";
 import useSizeElement from "./useSizeElement";
 import "./Slider.css";
 
-const Slider = ({ children, activeSlide }) => {
+const Slider = ({ children, activeSlide, zindex }) => {
   const [currentSlide, setCurrentSlide] = useState(activeSlide);
   const { width, elementRef } = useSizeElement();
   const { handlePrev, handleNext, slideProps, containerRef, hasNext, hasPrev } =
@@ -34,7 +34,10 @@ const Slider = ({ children, activeSlide }) => {
       <SliderContext.Provider value={contextValue}>
         <SliderWrapper>
           <div
-            className={cx("slider", { "slider--open": currentSlide != null })}
+            style={{ zIndex: zindex }}
+            className={cx(`slider`, {
+              "slider--open": currentSlide != null,
+            })}
           >
             <div
               ref={containerRef}

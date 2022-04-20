@@ -8,15 +8,15 @@ import DownArrowIcon from "../Icons/DownArrowIcon";
 
 import "../../styles/index.css";
 
-function renderTopic(metadata) {
-  return metadata.topics.map((element, index) => {
+function renderContents(data) {
+  return data.map((element, index) => {
     if (index == 0) {
-      return <span>{element.tname}</span>;
+      return <span>{element}</span>;
     } else {
       return (
         <>
           <div className="w-1 h-1 flex justify-center items-center text-center  rounded-full bg-netflix-gray mx-1"></div>
-          <span>{element.tname}</span>
+          <span>{element}</span>
         </>
       );
     }
@@ -59,23 +59,23 @@ class ShowDetailsButton extends Component {
             </button>
           </div>
           <div className="flex flex-row text-sm font-netflixsansregular text-left p-2 px-4 items-center flex-wrap gap-x-2">
-            {movie?.metadata?.matchScore ? (
+            {movie?.matchscore ? (
               <span className="text-green-500 font-netflixsansmedium text-[13px]">
-                {movie.metadata.matchScore}
+                {movie.matchscore}
               </span>
             ) : null}
 
-            {movie?.metadata?.maturityNumber ? (
+            {movie?.maturitynumber ? (
               <span className="px-1.5 border-netflix-gray text-[13px] border-[1px]">
-                {movie.metadata.maturityNumber}+
+                {movie.maturitynumber}+
               </span>
             ) : null}
-            {movie?.metadata?.duration ? (
-              <span className="text-[13px]">{movie.metadata.duration}</span>
+            {movie?.duration ? (
+              <span className="text-[13px]">{movie.duration}</span>
             ) : null}
           </div>
           <div className="flex flex-row text-[13px] font-netflixsansregular text-left p-2 px-4 items-center flex-wrap">
-            {movie?.metadata?.topics ? renderTopic(movie.metadata) : null}
+            {movie?.contents ? renderContents(movie.contents) : null}
           </div>
         </div>
       </div>

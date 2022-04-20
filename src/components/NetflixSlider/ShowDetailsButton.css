@@ -5,18 +5,18 @@
   right: 0;
   opacity: 0;
   width: 100%;
-  /* background-color: red; */
   transition: opacity 300ms ease 100ms;
   background: transparent;
   border: 0;
   outline: none;
   display: none;
+
 }
 
 .show-details-button div {
   display: flex;
-  /* background-color: red; */
-  /* margin: 0 auto; */
+
   color: white;
-  z-index: 99;
+  /* z-index: 1; */
+
 }
