@@ -8,13 +8,13 @@ import movies from "../data.json";
 class HomePage extends Component {
   render() {
     return (
-      <div className="flex justify-center flex-col pb-6">
+      <div className="flex justify-center flex-col pb-6 ">
         <Header />
         <div>
           <HomePreview movies={movies} />
           <div
+            className="flex sm:absolute "
             style={{
-              position: "absolute",
               bottom: -100,
             }}
           >

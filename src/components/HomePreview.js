@@ -9,9 +9,9 @@ class HomePreview extends Component {
       <div className="w-[100%] z-20 flex justify-center ">
         <img className="object-cover " src={movie?.trailerimage}></img>
 
-        <div className="absolute bottom-44 left-14">
-          <img className="w-2/5 " src={movie?.movietextimage}></img>
-          <span className="inline-block w-2/5 py-6 text-xl text-white font-netflixsansregular ">
+        <div className="absolute bottom-44 left-14 sm:block hidden">
+          <img className="w-2/5  " src={movie?.movietextimage}></img>
+          <span className=" sm:inline-block w-2/5 py-6 text-xl text-white font-netflixsansregular ">
             {movie?.description}
           </span>
           <div className="flex flex-row">

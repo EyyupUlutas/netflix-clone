@@ -27,7 +27,7 @@ class Header extends Component {
     return (
       <div
         ref={(r) => (this.ref = r)}
-        className={`w-full h-16 fixed flex flex-row justify-between transition-all duration-500	items-center px-14 top-0 z-[999] header ${this.state.className}`}
+        className={` w-full h-16 fixed flex flex-row justify-between transition-all duration-500	items-center px-14 top-0 z-[999] header ${this.state.className}`}
       >
         <div className="flex flex-row ">
           <img src={logo} width={90} height={90}></img>

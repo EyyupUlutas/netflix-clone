@@ -53,7 +53,7 @@ const Slider = ({ children, activeSlide, zindex, title }) => {
             })}
           >
             {title ? (
-              <div className="absolute top-[-40px]   text-white font-netflixsansmedium text-lg group flex items-center pr-5 left-14">
+              <div className="sm:flex hidden  absolute top-[-40px]   text-white font-netflixsansmedium text-lg group  items-center pr-5 left-14">
                 <div className="relative flex flex-row items-center justify-center">
                   {title ? title : ""}
                   <span className="-rotate-90 group-hover:visible group-hover:translate-x-[6.5rem] group-hover:translate-y-0.5   transition-all duration-1000 ">

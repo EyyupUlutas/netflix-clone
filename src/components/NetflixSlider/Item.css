@@ -1,5 +1,5 @@
 .item {
-  flex: 0 0 19.7%;
+  flex: 0 0 60.7%;
   transition: transform 300ms ease 100ms;
   margin: 0 4px;
   position: relative;
@@ -8,10 +8,18 @@
 }
 
 .item img {
-  height: 100%;
+
   width: 100%;
   vertical-align: top;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   position: relative;
+}
+
+
+
+@media (min-width: 768px) {
+  .item {
+    flex: 0 0 19.7%;
+  }
 }

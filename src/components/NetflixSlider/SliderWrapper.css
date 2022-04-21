@@ -1,5 +1,11 @@
 .slider-wrapper {
-  padding: 40px 0;
   overflow: visible;
   position: relative;
+}
+
+
+@media (min-width: 768px) {
+  .slider-wrapper {
+    padding: 40px 0;
+  }
 }
