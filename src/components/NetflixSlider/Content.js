@@ -67,7 +67,7 @@ class Content extends Component {
             </button>
             <img className="rounded-t-md" src={movie?.detailimage}></img>
 
-            <div className="absolute flex flex-row justify-between bottom-10 px-10 z-10">
+            <div className="absolute w-full flex flex-row justify-between bottom-10 px-10 z-10">
               <div>
                 <img className="w-2/5 pb-12" src={movie?.movietextimage}></img>
                 <div className="flex flex-row items-center gap-x-1 ">
@@ -94,7 +94,7 @@ class Content extends Component {
                     this.setState({ muted: true });
                   }
                 }}
-                className="absolute bottom-0 right-10"
+                className="absolute bottom-0 right-10 "
               >
                 <button className="flex justify-center items-center border-opacity-70 fill-netflix-gray border-netflix-gray  w-10 h-10 border-2 rounded-full ml-2 transition-all duration-500	 hover:border-white hover:bg-netflix-gray hover:bg-opacity-30 hover:fill-white hover:opacity-100">
                   {this.state.muted ? (
@@ -105,6 +105,7 @@ class Content extends Component {
                 </button>
               </div>
             </div>
+
             <div className="w-full bottom-0 absolute flex p-28   bg-gradient-to-t from-netflix-black-2 to-transparent"></div>
           </div>
           <div className="w-full bg-transparent flex flex-row px-7 py-5">
@@ -131,42 +132,61 @@ class Content extends Component {
             </div>
             <div className="flex-[0.5]  text-white">
               <div className="flex flex-col items-center text-sm gap-y-4 text-left">
-                <div className="w-full">
-                  <span className="text-netflix-gray">Oyucu kadrosu: </span>
-                  {renderItem(movie?.cast)}
-                  <span
-                    onClick={scrollToDetail}
-                    className="italic  pl-1 hover:underline hover:cursor-pointer"
-                  >
-                    daha fazla
-                  </span>
-                </div>
+                {movie?.cast?.length > 0 ? (
+                  <div className="w-full">
+                    <span className="text-netflix-gray">Oyucu kadrosu: </span>
+                    {renderItem(movie?.cast)}
+                    <span
+                      onClick={scrollToDetail}
+                      className="italic  pl-1 hover:underline hover:cursor-pointer"
+                    >
+                      daha fazla
+                    </span>
+                  </div>
+                ) : null}
 
-                <div className="w-full">
-                  <span className="text-netflix-gray">Türler: </span>
-                  {renderItem(movie?.genres)}
-                </div>
+                {movie?.genres?.length > 0 ? (
+                  <div className="w-full">
+                    <span className="text-netflix-gray">Türler: </span>
+                    {renderItem(movie?.genres)}
+                  </div>
+                ) : null}
 
-                <div className="w-full">
-                  <span className="text-netflix-gray">Bu içerik: </span>
-                  {renderItem(movie?.contents)}
-                </div>
+                {movie?.contents?.length > 0 ? (
+                  <div className="w-full">
+                    <span className="text-netflix-gray">Bu içerik: </span>
+                    {renderItem(movie?.contents)}
+                  </div>
+                ) : null}
               </div>
             </div>
           </div>
 
           {/* Sections */}
-          <div className="p-10 text-white ">
-            <div className="flex flex-row justify-between pb-5">
-              <span className="text-2xl text-white font-netflixsansmedium">
-                Bölümler
-              </span>
-              <span className="text-lg text-white font-netflixsansregular">
-                {movie?.duration}
-              </span>
+
+          {movie?.sections?.length > 0 ? (
+            <div className="p-10 text-white ">
+              <div className="flex flex-row justify-between pb-5">
+                <span className="text-2xl text-white font-netflixsansmedium">
+                  Bölümler
+                </span>
+                <span className="text-lg text-white font-netflixsansregular">
+                  {movie?.duration}
+                </span>
+              </div>
+              {renderSection(movie?.sections)}
+              {movie?.sections?.length >= 3 ? (
+                <div className="w-full relative border-netflix-gray border-opacity-50 border-b-2">
+                  <div className="w-full bottom-0 absolute flex p-10 bg-gradient-to-t from-netflix-black-2 to-transparent"></div>
+                  <div className="absolute flex justify-center items-center text-center bottom-[-18px] z-50 w-full ">
+                    <button className="flex justify-center items-center  border-netflix-gray bg-[#404040] bg-opacity-60   w-9 h-9 border-2 rounded-full ml-2 hover:border-white ">
+                      <DownArrowIcon width={18} height={18} color="white" />
+                    </button>
+                  </div>
+                </div>
+              ) : null}
             </div>
-            {renderSection(movie?.sections)}
-          </div>
+          ) : null}
 
           {/* Similars */}
           <div className="p-10">
@@ -197,24 +217,33 @@ class Content extends Component {
               <span className="font-netflixsansregular">Hakkında</span>
             </span>
             <div className="flex flex-col items-center text-sm gap-y-2  text-left text-white">
-              <div className="w-full">
-                <span className="text-netflix-gray">Yaratıcılar: </span>
-                {renderItem(movie?.creators)}
-              </div>
-              <div className="w-full">
-                <span className="text-netflix-gray">Oyucu kadrosu: </span>
-                {renderItem(movie?.cast)}
-              </div>
+              {movie?.creators?.length > 0 ? (
+                <div className="w-full">
+                  <span className="text-netflix-gray">Yaratıcılar: </span>
+                  {renderItem(movie?.creators)}
+                </div>
+              ) : null}
 
-              <div className="w-full">
-                <span className="text-netflix-gray">Türler: </span>
-                {renderItem(movie?.genres)}
-              </div>
+              {movie?.cast?.length > 0 ? (
+                <div className="w-full">
+                  <span className="text-netflix-gray">Oyucu kadrosu: </span>
+                  {renderItem(movie?.cast)}
+                </div>
+              ) : null}
+              {movie?.genres?.length > 0 ? (
+                <div className="w-full">
+                  <span className="text-netflix-gray">Türler: </span>
+                  {renderItem(movie?.genres)}
+                </div>
+              ) : null}
 
-              <div className="w-full">
-                <span className="text-netflix-gray">Bu içerik: </span>
-                {renderItem(movie?.contents)}
-              </div>
+              {movie?.contents?.length > 0 ? (
+                <div className="w-full">
+                  <span className="text-netflix-gray">Bu içerik: </span>
+                  {renderItem(movie?.contents)}
+                </div>
+              ) : null}
+
               <div className="w-full gap-x-3 flex flex-wrap">
                 <span className="text-netflix-gray">Yetişkinlik Düzeyi: </span>
                 <span className="px-1.5 border-netflix-gray text-sm border-[1px]">

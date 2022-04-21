@@ -1,6 +1,6 @@
 import React from "react";
 
-const DownArrowIcon = ({ width, height, color }) => (
+const DownArrowIcon = ({ width, height, color, className }) => (
   <svg
     width={width}
     height={height}
@@ -8,6 +8,7 @@ const DownArrowIcon = ({ width, height, color }) => (
     fill={color}
     xmlns="http://www.w3.org/2000/svg"
     class="Hawkins-Icon Hawkins-Icon-Standard"
+    className={className}
   >
     <path
       fill-rule="evenodd"

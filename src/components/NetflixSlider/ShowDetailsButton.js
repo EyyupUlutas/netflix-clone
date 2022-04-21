@@ -30,9 +30,7 @@ class ShowDetailsButton extends Component {
       myData: null,
     };
   }
-  componentDidMount() {
-    console.log("this.props.movie => ", this.props.movie);
-  }
+
   render() {
     const { movie } = this.props;
     return (

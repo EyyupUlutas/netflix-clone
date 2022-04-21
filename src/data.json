@@ -1,17 +1,16 @@
 [{
         "id": 1,
-
         "name": "The Queen's Gambit",
         "description": "1950'lerde bir yetimhanede, küçük bir kız müthiş bir satranç yeteneği sergiler. Ancak yıldızlığa uzanan umulmadık yolculuğunda bağımlılıkla mücadele etmek zorunda kalır.",
         "image": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWR1ANgH8wtkL9pgCklNdAXcNwOzA18jzu3CuKGLJlUu6AzxYUDBDXrpVeez_SpnTvdR8X8SocvoizM3fUw1xjU9yjMfFYMlhOOd2R7UHfcxvgaEw9h4LFWdTZKA.jpg?r=069",
         "detailimage": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABQgJ1kUszVI5TXkfe2kYUq8LvPR-dOoN_BssDB5VbhORkZlVpeDpseeRTjPwMm-uw3Y4wDWbPoDv-QCSbOomBXZ4KWXI.webp?r=ec4",
         "movietextimage": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABcKrFBGTCBvScMtWc-og890uVGAY17bX1Ubji7aF45di0ImJWVrTpv3uMzv7A_Ka113nAT8MKrcF7NbCgmlsZuXrWapkT68Qoq9B92KjEGxv_l-OTBIwV5t5DjxFPn9AaiB18Bsh76OyFJaNdJKWOKK9xWR9kQllQ_qMx9_dKO_QsA.png?r=a7f",
+        "trailerimage": "https://occ-0-3890-3466.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABcL2iWNIx4vi4cc0PT0PTlMcuXiOrJcg0UujHyeug-6AETl6AmELWTiRI0nzrJ4MyTI-mPSFzuSnLTH63iJyJxMIVp5M.jpg?r=038",
         "duration": "Mini Dizi",
         "maturitynumber": "18",
         "specificratingreason": "cinsellik, argo, madde kullanımı, intihar",
         "matchscore": "%98 Eşleşme",
         "release": "2020",
-
         "sections": [{
                 "image": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABV3RMkZD5g7zqn9AyxOJkBQmoJmgpbTCHW3OgNjlLcnQNV0i3MEFrBjHAbXlEhwCiPiYdHxeLIEupFsH82LLSRN2xmaiTnHcjBWPmVErpdabnV7F.jpg?r=4e3",
                 "title": "Açılışlar",
@@ -44,6 +43,7 @@
         "image": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABSgNrlV4WErF5jiAU2r4lbb92IcVRyJ_ETU5UtyawqBkTaCfqhSoihOnFH5RsnJpl5wb58j9A1POYatTC1qRvO1SfXI.webp?r=5cc",
         "detailimage": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABVyBE5yO7B9yzN_hZE907P99mYmHbNujVRJ-qmrv39qrK9Pxu6FR33V5_qBWQbCcgrhAc9JnVdD6NQkOW23ABKr2Nh-_.webp?r=a57",
         "movietextimage": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABbMy4Vyb2cggFDovtz-yStnxcLNho5VRUpe06Wg5rzGPFft1tSWY2ZC-BTkP5KOvz_4UIAVSdFf16wijBTyJBm_9EZlWrGoQzUo.webp?r=49b",
+        "trailerimage": "https://occ-0-3890-3466.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABYjDbuz7GK1m5vSEI6qHrMQfqtLSdLBqkudn9NUastv6ZAwwQ77TlkTAS7dlGtcmH8FTcE_kFrgtFiEXc4_kRV5ab1RP.jpg?r=558",
         "duration": "10 Sezon",
         "maturitynumber": "18",
         "specificratingreason": "şiddet, cinsellik",
@@ -86,5 +86,194 @@
         "genres": ["Çizgi Romanlardan Uyarlanan Diziler", "Drama Dizileri", "Korku Temalı Diziler", "Amerikan Dizileri", "Aksiyon ve Macera Dizileri"],
         "creators": [],
         "cast": ["Andrew Lincoln", "Steven Yeun", "Norman Reedus", "Chandler Riggs", "Melissa McBride"]
+    },
+    {
+        "id": 3,
+        "name": "Squid Game",
+        "description": "Para sıkıntısı çeken yüzlerce oyuncu, çocuk oyunlarında yarışmaları için aldıkları tuhaf daveti kabul eder. İçeride onları cazip bir ödül ve ölüm riski beklemektedir.",
+        "image": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABYqKGNVgWPtYpN60TCGjMNsuIzk6JfrAe6bVdpt3wbEob4sWkkXnSk2ncba29JcPOAeoz2znm3BAZ6SsfVKur-3xGb6MDxoIGGJfpgYWlsdotLXxdCTXZhFP_x71.jpg?r=f9b",
+        "detailimage": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABSREt61hSBk5pW_UgZyzyN69uB8MT3NshxrddjlXvyR_Ud7XjpocW2n1lSzJcijWxoPd-RrqaYYo3kbbLE-sClf5z9oZ.webp?r=c7a",
+        "movietextimage": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABd2dHRycK0NdLskpdwq6M1FrLBBNCKzjyZ6T7vj51FoODYS0EK3Ym4Fv3k0fUgXZ5zksNd5VmtjuSAxSWpKkESU7ByYG7TkLADvydt079WfFACHw3xaXkUrhg6L_z7Up6NWjFV-xTyBznuIJw_HVDBCHSlXpw5CeaC3wc5dGdM6q.webp?r=368",
+        "trailerimage": "https://occ-0-3890-3466.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABYWoTHK-36RyfmtZZWWeGSn0qD4MGl7BBJES0RogN9xWGTt9SJH7n-w4r8HgpjNNVloowIaitgmkgIxc6GLXi3tWyH08.jpg?r=0b1",
+        "duration": "1 Sezon",
+        "maturitynumber": "18",
+        "specificratingreason": "şiddet, cinsellik, çıplaklık, intihar",
+        "matchscore": "%96 Eşleşme",
+        "release": "2021",
+
+        "sections": [{
+                "image": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABeUroAFMjqxXSTrWKUPwVcequeCcSiusBtBBA0i1dLDaHKTU0y4806QD7CC_OvGbB--J31Ov7eThlpMYXhXoqiMCfSRbBxFzsA5mXxgXVzvofz8r.jpg?r=e86",
+                "title": "Kırmızı Işık, Yeşil Işık",
+                "description": "Kolay yoldan para kazanmayı uman beş parasız ve çaresiz Gi-hun, esrarengiz bir oyunda yer almayı kabul eder. İlk turun başında beklenmedik, korkunç bir olay gerçekleşir.",
+                "duration": "60 dk."
+            },
+            {
+                "image": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABc7E3bozCrP9xp4o4pqlsmSUavgIFjc8vDJzhRXlWMADz4rDvldoSIv4BEg8iFbM4W4eBQy1MB5EPqHd2wMVgGxABbzM_geBHuJxSp3Lgr3OISV7.jpg?r=f56",
+                "title": "Cehennem",
+                "description": "Oyuna devam etme ya da bırakma konusunda karar veremeyen grup oylama yapar. Ancak dış dünyada onları bekleyen gerçekler, en az bu oyun kadar acımasız olabilir.",
+                "duration": "63 dk."
+            },
+            {
+                "image": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABapmZuDUFYAbvfw9IX8OrF9D_mi2fQtG841Sqc0pvFSkZDB4gXm36VQbJZMoxF2grHzb1pLIza4A2s9Wio2JZZqZRLPPiLIVqT14po9R69XBasb2.jpg?r=72b",
+                "title": "Şemsiyeli Adam",
+                "description": "Birkaç oyuncu, aynı anda hem tatlı hem de ölümcül olabilecek ve gizli avantajlara sahip oyuncular barındıran sıradaki tura katılır. Bu sırada Jun-ho gizlice içeri girer.",
+                "duration": "54 dk."
+            }
+
+        ],
+
+        "contents": ["Sürükleyici"],
+        "genres": ["Kore Yapımları", "Gerilim Dizileri", "Drama Dizileri"],
+        "creators": ["Hwang Dong-hyuk"],
+        "cast": ["Lee Jung - jae", "Park Hae - soo", "Wi Ha - jun", "Oh Young - soo", "Jung Ho - yeon", "Heo Sung - tae", "Kim Joo - ryoung", "Tripathi Anupam", "You Seong - joo", "Lee You - mi"]
+    },
+    {
+        "id": 4,
+        "name": "Baby Driver",
+        "description": "Temiz yüzlü kaçış sürücüsü Baby, kötü bir adama bulaşmış olan bir müzik hastasıdır. Geriye tek bir işi kalmış olsa da her şey ters gitmek üzeredir.",
+        "image": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTFk562jXQTpIcop8P8G84wWDvFmwK_AX9XMh4KH_eAfs_ci3wPY5wIULq1Mx8eX9E0Vhs9HqQqiNymDZbHSPSaxs2U.webp?r=63a",
+        "detailimage": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABddRMQDAskSTveKQhDcNkG2wvh4AKYIeDrAeu2C8K3f2FyoMH2R3mznXngdPS89jV0-iEc4wU0NM8qMVvNIrbRYH8fXi.webp?r=09c",
+        "movietextimage": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABYRpjJ3_jqs-8A15CIjCwOrpA4tYc047ImHycC7VZeAJ5Pw8uZV0dKM5znM4OCThHJnKR8QqTGi5eKTF3jauaBId76geTugAMLc.webp?r=043",
+        "trailerimage": "https://occ-0-3890-3466.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABX9g61yMZbdmKRlnT3KgEWZ3LnzqUwSkXHeriLPKwJNbsqqqH7IBDop-gbsGtDWHSV974hBW0GmCkLFrtXcvjpFfIfjC.jpg?r=660",
+        "duration": "1 sa. 53 dk.",
+        "maturitynumber": "18",
+        "matchscore": "%85 Eşleşme",
+        "release": "2021",
+        "specificratingreason": "şiddet, argo",
+        "sections": [],
+        "contents": ["Sürükleyici", "Ezber Bozan"],
+        "genres": ["Britanya Yapımı", "Aksiyon ve Macera", "Komediler"],
+        "creators": ["Edgar Wright"],
+        "cast": ["Ansel Elgort", "Kevin Spacey", "Lily James", "Jon Bernthal", "Jamie Foxx", "Jon Hamm", "Eiza González, Flea", "Sky Ferreira", "Lanny Joon"]
+    },
+    {
+        "id": 5,
+        "name": "Esaretin Bedeli",
+        "description": "Eşini ve onun âşığını öldürmekten hüküm giyen kendi hâlinde bir bankacı, hapishanede Red adında bir mahkûmla arkadaş olur ve umuda tutunarak hayatta kalmaya çalışır.",
+        "image": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWMb0x3ELPT73Ng7XkNLwfs_1-wFXC6PvLe4eShs0KMKT6I6zfeiepVA7zTir_5D7eLsHYgqfB-5qWeY30e74rIeOPQ.webp?r=33b",
+        "detailimage": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABRG_0udlPDl3gy94C3xL4I_WDylJO0uNIF5KXseaONfDbFi6436gH-O_HUvLrK8cg1YZlm1P8PDHFL_znzljup2UZ8yr.webp?r=f39",
+        "movietextimage": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABaC5mrax-u0TLEFQ7omA2x3oxuEu1jskbbse1_z1ydQvaj1tui1YXK4LU9MOJuN9tDruNHknVaJqSrL4jfTXUcLr3KI9_kq3pdU.webp?r=cf5",
+        "trailerimage": "https://occ-0-3890-3466.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABWMubi3zODGltLPfFX_8RJ5hgBpCWe1FIayjQDn88FInld-MgYovKq3yIAfofDEfuq_IQvC7jpLsB1tmLjKSU8_UkaAj.jpg?r=cbb",
+        "duration": "2 sa. 22 dk.",
+        "maturitynumber": "18",
+        "matchscore": "%90 Eşleşme",
+        "release": "1994",
+        "specificratingreason": "şiddet, cinsellik, argo, cinsel şiddet, intihar",
+        "sections": [],
+        "contents": ["İlham Verici", "Duygusal"],
+        "genres": ["Kitaplardan Uyarlanan Filmler", "Klasik Filmler", "Dramalar"],
+        "creators": ["Frank Darabont"],
+        "cast": ["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler", "Clancy Brown", "Gil Bellows", "Mark Rolston", "James Whitmore", "Jeffrey DeMunn", "Larry Brandenburg"]
+    },
+    {
+        "id": 6,
+        "name": "Control Z",
+        "description": "Kimliğini gizleyen biri, Luis adına intikam almak ister. Sofia iki sınıf arkadaşını kurtarmak için çok geç olmadan ilk gizemi çözmelidir.",
+        "image": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABXA7-wVxnqwhkfddVgBIZzcLTepJX-ipFGrh18nxJKivj3E9x4Fb5G6IFGX7H-ShmO33TCQNP6Nj88mAQjaWS5aPvgnxpO3ED1l9rq0LnelGYIj15vS3T-cpQqxC.jpg?r=59d",
+        "detailimage": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABa70kUTD34pdapJQldvBOS4ev72bQqIMwAcSuk3PbLZm0GSsQaVM7JZulZVvDasPPZxYXMMRO97RC0QtTzW38pMqBo71awC88rXOTnRtqWo3_ZzpgA.webp?r=11e",
+        "movietextimage": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABdLWTbmC71XAJcFe01nvlu_QdPp0IGvmLgI4tS8og0gQta8clgoxfSSi9_E3lTnR7LBm8s5kWq4pCttd-QMFjTJRcclT9pSGy7YhEkv-kdLjNs5pOrAQbdLt2jVzj1bdc_KrwXYG8ILrVc3OpjnehgjCEPmuhdmeSFPVLek0QxRf.webp?r=a6e",
+        "trailerimage": "https://occ-0-3890-3466.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABeZnrASdWRs2T0_WbnONnwYnUsC-QzNIzM9QaAdtvQ6kVQ9bvLkLL1xjNF1tpnJWCKIh6g4p55dkwtE19_-L3jl2jM7V.jpg?r=0bf",
+        "duration": "2 Sezon",
+        "maturitynumber": "18",
+        "matchscore": "",
+        "release": "2021",
+        "specificratingreason": "şiddet, cinsellik, çıplaklık, argo, madde kullanımı, kendine zarar verme",
+        "sections": [{
+            "image": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABZsrYcBAIG3GmH99OrEWzLegjA58ey8QSU-aiHN6CW7AfWDTBzCU9q1xrs3zj0bVZt6i-qOJsYmhzIkdGe2Ry71L5UamsMjexa0ujJyGEc6IHbNW.jpg?r=e33",
+            "title": "Doğum Günü Kızı",
+            "description": "Yeni öğrenci Javier okula başlar ve son derece gözlemci biri olan Sofia ile tanışır. Bir başka öğrencinin sırrının ortalığa dökülmesiyle okul karışır.",
+            "duration": "36 dk."
+        }, {
+            "image": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABZUnc0gSJPbxxuY4Apb4y285JQ80PdT4Vsby89QZcSWfceuTzst4ocdWz2N1rxpwnKTmsVJzC3rPzuPEEPgDXsCbjn4NR-Mrq4WRUXyMKsavLlHC.jpg?r=c6e",
+            "title": "Geri Dönüş",
+            "description": "Birinin okula geri dönmesi ortalığı karıştırır. Natalia finansal ikilemini çözmek için kolları sıvar. İntikamcıyı bulma çalışmaları kızışır.",
+            "duration": "36 dk."
+        }, {
+            "image": "https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABRkOrCmxcFqePszSq3x7zH7s6Qo4zxjz3S--z1yq8aAnM9d2n7UKsDR0bPWvkhRk2wsmEew5x63SwvZu-faCIJ6vNm4BtM1BnBIY5pxUL5LXx_Hl.jpg?r=02b",
+            "title": "Budalalar",
+            "description": "Gerry'nin Luis'e karşı gösterdiği agresif tavırlar giderek sertleşir. Hacker bir kriz yaşanmasına yol açar. Sofia aldığı tehditler nedeniyle endişeye kapılır.",
+            "duration": "39 dk."
+        }],
+        "contents": [],
+        "genres": ["Meksika Yapımları", "Gençlik Dizileri", "Drama Dizileri"],
+        "creators": ["Carlos Quintanilla Sakar", "Adriana Pelusi", "Miguel García Moreno"],
+        "cast": ["Ana Valeria Becerril", "Michael Ronda", "Yankel Stevan", "Zion Moreno", "Luis Curiel", "Samantha Acuña", "Macarena García", "Fiona Palomo"]
+    },
+    {
+        "id": 7,
+        "name": "Shiny_Flakes: 19'unda Uyuşturucu Baronu",
+        "description": "'How to Sell Drugs Online (Fast)' dizisine ilham veren bu öyküde Max S. küçük yaşta ailesiyle oturduğu evdeki odasında nasıl uyuşturucu imparatorluğu kurduğunu anlatıyor.",
+        "image": "https://occ-0-3890-3466.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABYkDH0AVkyLheLDhCS83mGMFR40S_q9eDw3rYBv0xRda7w2rZ0xtLm3p9Pv074hLVQBJ98Cd9815NWMKDPp93fV_7q6PojPOHIcfc4xokml2pSlaE3DCCo25YJaV.jpg?r=b5c",
+        "detailimage": "https://occ-0-3890-3466.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABVKZW61X176uPpGIyJvFy745ShEnCdMtSuTT-ngQpwpI4ixuZwUQSM4k1FdjNvJOJw5FGQJny3V5BYC4mpg89eemD2rvd9KxC8Ej8zEMWd7FcDALGQ.webp?r=38d",
+        "movietextimage": "https://occ-0-3890-3466.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABbEnFr4N3JdxjbxH0EtHMYDBa74iwT88lXrCccl2W8zMzDxLCP5s2v_2271rBafmIvOfCu2jZY1OL8DlzfZD8GSt75QdU8a5U-_K3hFNI4NPK3gP5eeDnqCXKybKRy6HSCPULRbF4SjnwucLu8WRiR2LDglvhJAlsNCCOKmgtWpP.webp?r=87e",
+        "trailerimage": "https://occ-0-3890-3466.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABQ8tpaOLXVy0i7-l4X_XW9rk4DjQ2XkroYghxjQ2CvkJq-7qxL7qt3ckR-igcZxRgTgoB9EHJONS6rkA08hTu2EQIEFZ.jpg?r=90c",
+        "duration": "1 sa. 37 dk.",
+        "maturitynumber": "16",
+        "matchscore": "",
+        "release": "2021",
+        "specificratingreason": "madde kullanımı",
+        "sections": [],
+        "contents": ["Araştırmacı"],
+        "genres": ["Almanya Yapımları", "Belgesel Filmler", "Gerçek Suç Belgeselleri", "Biyografik Belgeseller"],
+        "creators": ["Eva Müller", "Michael Schmitt"],
+        "cast": ["Maximilian Schmidt"]
+    },
+    {
+        "id": 8,
+        "name": "The Billion Dollar Code",
+        "description": "1990'ların Berlini'nde bir sanatçı ile bir hacker dünyayı görmenin yeni bir yolunu keşfeder. Yıllar sonra Google'a patent ihlali davası açmak için tekrar buluşurlar.",
+        "image": "https://occ-0-3890-3466.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABX2ViNrPae52Dr4rPv_C3rMAzRCXi9Rrez3ey5HJGijmJtLbkX5Emur4W7URDo2sD2HfujJqwEtohD_ISd4q_PyXxCre8MSoRe0rL3ahqSjiYeIkBtOxk24HAHpL.jpg?r=e04",
+        "detailimage": "https://occ-0-3890-3466.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABT6Vi6knW2esXQpjWzGeqwCVHOhRyZY2UkQ2LzP2KrKyyc3QE9ki-jSWe6EGUtRmd8i2m10XMBkGHB8Or0V_Y_HxXWU2.webp?r=b42",
+        "movietextimage": "https://occ-0-3890-3466.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABVB-WgI3JeWGojmvGX1Xle7Z8w_S_IqGPHjk0LjNTruVYmoVtn0vt04k2XpkswNAnn26F6HhnxcbpJbshEyLpXNnW_woi7a0t8llB9eDD0SWDCpA14rpSH-DAhFbZ9nfDsGt-iD2B6l98_NxX1IUsKJQEINwh7wAtzbrXynrHhgM.webp?r=695",
+        "trailerimage": "https://occ-0-3890-3466.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABWGTF0S_D4cbUCNrv3WJvCMC6PZpVE5JP_MySkbETWkzA9yX1wSGCbFjbrTqYYVHYEJ9WN6me0tqUW_pY7eROOkXnFwS.jpg?r=d31",
+        "duration": "1 Sezon",
+        "maturitynumber": "16",
+        "matchscore": "%95 Eşleşme",
+        "release": "2021",
+        "specificratingreason": "çıplaklık, argo",
+        "sections": [{
+            "image": "https://occ-0-3890-3466.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABdxSIJ1ALr6xhs5b1Xt5u6HO6iZEzZt2NGo16ZkiGxdHliG2MeVyW_lKp8_LbndPkpZSax6zHbJTzQEkrMywAYDzAGy2QFJ_hy2ZruFedv6bKzhz.jpg?r=1be",
+            "title": "1. Bölüm",
+            "description": "Carsten ve Juri, Kyoto konferansında gösterdikleri başarı ve Silikon Vadisi'ne yaptıkları gezinin ardından Berlin'e dönerek şirket için yatırımcılar aramaya başlar.",
+            "duration": "67 dk."
+        }, {
+            "image": "https://occ-0-3890-3466.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABeceyXIzfVz73oY3aEVlriWkkikgfUSArOSPe3Mvkqb2aA1SBewKto44LpXo4rGs2g6VevellffqaHkMnDixQKZMSDSChsZrmscN-zdCyWFUS9s9.jpg?r=7ba",
+            "title": "2. Bölüm",
+            "description": "Carsten ve Juri, Kyoto konferansında gösterdikleri başarı ve Silikon Vadisi'ne yaptıkları gezinin ardından Berlin'e dönerek şirket için yatırımcılar aramaya başlar.",
+            "duration": "63 dk."
+        }],
+        "contents": ["Sürükleyici", "Duygusal"],
+        "genres": ["Almanya Yapımları", "Adalet Konulu Diziler", "Sosyal Konulu Drama Dizileri", "Drama Dizileri"],
+        "creators": [],
+        "cast": ["Mark Waschke", "Mišel Matičević", "Leonard Scheicher", "Marius Ahrendt", "Lavinia Wilson", "Seumas F.Sargent", "Rauand Taleb", "Elias Krischke", "Marcel Heuperman", "Johanna Polley"]
+    },
+    {
+        "id": 9,
+        "name": "İnanılmaz Soygunlar",
+        "description": "Çalınan milyonlarca nakit para. Ortadan kaybolan lüks bourbon. Bu gerçek suç dizisinde sıradan insanlar, sıra dışı soygunlarda paçayı kurtarmaya oldukça yaklaşıyor.",
+        "image": "https://occ-0-3890-3466.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABSl9DmEDTdfgtqWI1B3FCZdkyqAlXG2NV4vPrEvDCTbDzugCKzgeMQLQ9pAFto0hB7SxpFneyg7UxQChf5yLPNX9RjHYbqGJfZDhQb3n4GiIArDoTEchF77iE1YV.jpg?r=77e",
+        "trailerimage": "https://occ-0-3890-3466.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABbdU_Zh4n4eQMsiNGJSluF-sj2i4g7Vn4p5wVBmERszT3Pcyi_lIFfQaY58pljktiQ_TyfqlIbKuEh4ZcEB1R-K10w1z.jpg?r=738",
+        "detailimage": "https://occ-0-3890-3466.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABUIUnmj9yEEIc2eodXBmv6sFDjcjmvLVk-Zgy0BjS2YHHNMdMEq2_5rzinPTvm3at2SjAs9xqoqZPXjUfRhZM3syLJFl.webp?r=c66",
+        "movietextimage": "https://occ-0-3890-3466.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABXtbYKIPjXXRU2dC7aPyPlX-_olWGszaG8tPloiUHHbgoi4yh0Xomjeuh5X2LQLbTlISiuCJAjtUpzKEWckhE3RrVSY3aFLpmL4KXui6c71CyqGmjpfJNrn_sIMZoEx2bXYkHVfWCgOvRuposBmKyJ3YVP_ltNJT-gLGBmggGoDg.webp?r=ed2",
+        "duration": "1 Sezon",
+        "maturitynumber": "18",
+        "matchscore": "Yeni",
+        "release": "2021",
+        "specificratingreason": "şiddet, cinsellik, çıplaklık, argo, madde kullanımı",
+        "sections": [{
+            "image": "https://occ-0-3890-3466.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABbsqZnGznbXGiMefDBKj6zSyJhFEjYZW0_kDdKSTR39VYFtjAEOMLkOhZ0LHhKXmg2z_dWbUsvCeB5BCJDRWeMM7N3THQj1IvnVKSPy5GyCYpNpR.jpg?r=056",
+            "title": "Bourbon Kralı, Birinci Bölüm",
+            "description": "1999'da aile babası Toby Curtsinger, dostlarıyla birlikte dünyanın en pahalı bourbon'unu çalar. Bunun ardından başlatılan soruşturma ise medyanın yoğun ilgisini çeker.",
+            "duration": "41 dk."
+        }, {
+            "image": "https://occ-0-3890-3466.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABW_cRhtKnpjY2Wj8mX22_Nj1EzT5RN0jW74ldYSoWYqtn5gf_UTOQQgcjlBDfYhK--FPdLcqtxwmI25-vXIeEsmPwNuyfE2Q-beH9h_W6x8JIAOE.jpg?r=d0e",
+            "title": "Bourbon Kralı, İkinci Bölüm",
+            "description": "Şerif bürosu aldığı ihbar üzerine önemli bir kanıt bulur. Beklenmedik bir gelişme, kayıp Pappy Van Winkle şişelerinin ardındaki gizemi ortaya çıkarır.",
+            "duration": "43 dk."
+        }],
+        "contents": ["Araştırmacı", "Sürükleyici"],
+        "genres": ["Belgesel Dizileri", "Suç Temalı Diziler", "Gerçek Suç Belgeselleri", "Amerikan Dizileri"],
+        "creators": [],
+        "cast": []
     }
 ]
