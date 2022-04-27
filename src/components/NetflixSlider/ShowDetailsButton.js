@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import IconArrowDown from "./../Icons/IconArrowDown";
 import "./ShowDetailsButton.css";
 import PlayIcon from "../Icons/PlayIcon";
 import PlusIcon from "../Icons/PlusIcon";

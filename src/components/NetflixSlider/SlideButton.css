@@ -1,18 +1,17 @@
 .slide-button {
   position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 55px;
+  bottom: -1%;
   background: rgba(0, 0, 0, 0.5);
   border: 0;
   outline: 0;
   padding: 0;
-  margin: 40px 0;
+  height: 63%;
   z-index: 100;
+  border-top-left-radius: 5px;
 }
 
 .slide-button span {
-  width: 25px;
+  width: 30px;
   color: #fff;
   display: block;
   margin: 0 auto;
@@ -20,6 +19,7 @@
 
 .slide-button--next {
   right: 0;
+  transform: translate(18%, -32%);
 }
 
 .slide-button--next span {
@@ -28,8 +28,34 @@
 
 .slide-button--prev {
   left: 0;
+  transform: translate(-18%, -32%);
 }
 
 .slide-button--prev span {
   transform: rotateZ(90deg);
+}
+
+
+@media (min-width: 1024px) {
+  .slide-button {
+    bottom: -19%;
+    height: 63%;
+
+  }
+
+  .slide-button span {
+    width: 50px;
+  }
+
+  .slide-button--next {
+    right: 0;
+    transform: translate(25%, -45%);
+  }
+
+  .slide-button--prev {
+    left: 0;
+    transform: translate(-20%, -45%);
+  }
+
+
 }

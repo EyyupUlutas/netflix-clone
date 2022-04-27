@@ -1,14 +1,14 @@
 .item {
-  flex: 0 0 60.7%;
+  flex: 0 0 45.7%;
   transition: transform 300ms ease 100ms;
   margin: 0 4px;
   position: relative;
-  height: 150px;
+  height: 100px;
+
   /* z-index: 1; */
 }
 
 .item img {
-
   width: 100%;
   vertical-align: top;
   border-top-left-radius: 5px;
@@ -18,7 +18,13 @@
 
 
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
+  .item {
+    flex: 0 0 19.7%;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width:1023px) {
   .item {
     flex: 0 0 19.7%;
   }

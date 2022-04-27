@@ -4,7 +4,10 @@ import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 class Footer extends Component {
   render() {
     return (
-      <div className="w-full flex flex-col  items-center gap-y-6 pt-20">
+      <div
+        className="w-full flex flex-col  items-center gap-y-6 pt-20 "
+        style={{ zIndex: 10 }}
+      >
         <div className="items-start w-3/4 flex gap-x-8 pl-3">
           <a href="">
             <FaFacebookF size={24} color="white"></FaFacebookF>

@@ -1,6 +1,7 @@
 .slider {
   display: flex;
   position: relative;
+
 }
 
 .slider__container {
@@ -9,6 +10,8 @@
   transition: transform 300ms ease 100ms;
   /* z-index: auto */
   width: 100%;
+
+
 }
 
 .slider:not(.slider--open) .item:hover .show-details-button {
@@ -30,9 +33,8 @@
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .slider__container {
     padding: 0 55px;
   }
-
 }

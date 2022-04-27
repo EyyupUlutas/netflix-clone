@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("~slick-carousel/slick/slick-theme.css");
+@import url("~slick-carousel/slick/slick.css");
+
+@import "react-alice-carousel/lib/alice-carousel.css";
+
+
 
 @font-face {
   font-family: NetflixSansBold;
@@ -46,6 +52,7 @@ body {
 
 
 .App {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
 }

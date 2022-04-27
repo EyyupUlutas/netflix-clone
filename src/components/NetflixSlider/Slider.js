@@ -23,18 +23,6 @@ const Slider = ({ children, activeSlide, zindex, title }) => {
     setCurrentSlide(null);
   };
 
-  // <div className="absolute top-[-40px]   text-white font-netflixsansmedium text-lg group flex items-center w-[18%] left-14 ">
-  //   {title ? title : ""}
-  //   <span className="absolute -rotate-90  left-[135px] group-hover:left-32 top-0.5 group-hover:top-1.5 bottom-0  group-hover:visible group-hover:translate-x-28  transition-all duration-1000">
-  //     <DownArrowIcon className="w-5 h-5 group-hover:w-3 group-hover:h-3 fill-white" />
-  //   </span>
-  //   <div>
-  //     <span className="text-xs bottom-1 left-0 invisible opacity-0    transition-all duration-1000  group-hover:opacity-100 absolute  group-hover:visible group-hover:translate-x-36">
-  //       Tümüne Göz At
-  //     </span>
-  //   </div>
-  // </div>
-
   const contextValue = {
     onSelectSlide: handleSelect,
     onCloseSlide: handleClose,
@@ -53,10 +41,10 @@ const Slider = ({ children, activeSlide, zindex, title }) => {
             })}
           >
             {title ? (
-              <div className="sm:flex hidden  absolute top-[-40px]   text-white font-netflixsansmedium text-lg group  items-center pr-5 left-14">
-                <div className="relative flex flex-row items-center justify-center">
-                  {title ? title : ""}
-                  <span className="-rotate-90 group-hover:visible group-hover:translate-x-[6.5rem] group-hover:translate-y-0.5   transition-all duration-1000 ">
+              <div className="flex text-xs sm:text-sm md:text-lg  absolute top-[-40px]   text-white font-netflixsansmedium  group  items-center pr-5 left-3  lg:left-14">
+                <div className="relative flex flex-row items-center justify-center w-full">
+                  <span>{title ? title : ""}</span>
+                  <span className=" -rotate-90 group-hover:visible group-hover:translate-x-[6.5rem] group-hover:translate-y-0.5   transition-all duration-1000 ">
                     <DownArrowIcon className="w-5 h-5 group-hover:w-3 group-hover:h-3 fill-white" />
                   </span>
 

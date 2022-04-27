@@ -4,16 +4,18 @@ import Header from "../components/Header";
 import HomePreview from "./HomePreview";
 import Footer from "./Footer";
 import movies from "../data.json";
+import "../styles/index.css";
 
 class HomePage extends Component {
   render() {
     return (
       <div className="flex justify-center flex-col pb-6 ">
         <Header />
+
         <div>
           <HomePreview movies={movies} />
           <div
-            className="flex sm:absolute "
+            className="flex lg:absolute transition-all"
             style={{
               bottom: -100,
             }}
