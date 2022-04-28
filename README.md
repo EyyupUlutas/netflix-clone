@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+<div align="left">
+	<h1>Current Netflix Clone App (2022)</h1>
+</div>
+<b>TR</b> - Bu proje, Netflix'in basitleştirilmiş bir UI(Kullanıcı Arayüzü) klonudur. React ve Tailwind CSS kullanılarak oluşturulmuştur. <br>
+<b>EN</b> - This project is a simplified UI(User Interface) clone of Netflix. Built using React and Tailwind CSS.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+## Video Görüntüsü - Video Preview
+https://user-images.githubusercontent.com/52197552/165832049-7c189aa9-dc31-4159-acf9-0577facdd66b.mp4
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Uygulama Görüntüleri - App Preview
+<img width="500" alt="netflix-clone-1" src="https://user-images.githubusercontent.com/52197552/165803189-cf3271ce-cae0-4a17-bf3d-71766d475a76.png">  <img width="500" alt="netflix-clone-2" src="https://user-images.githubusercontent.com/52197552/165803208-1aeddc29-f996-4906-8241-6c80bc2272c4.png"> 
+<img width="500" alt="netflix-clone-3" src="https://user-images.githubusercontent.com/52197552/165803224-cbce3d53-7827-47b8-bf25-2bfa0ad51909.png"> <img width="500" alt="netflix-clone-4" src="https://user-images.githubusercontent.com/52197552/165803231-3d7434f5-f893-434e-b0aa-ab603171e8e0.png"> <img width="500" alt="netflix-clone-5" src="https://user-images.githubusercontent.com/52197552/165803356-8a788104-91be-4cf5-a87a-942802a80782.png">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Demo
 
-### `npm run build`
+## Kurulum
+1. Projeyi indirin proje konumuna gidin `npm install` ile gerekli dosyaları kurun 
+2. `npm start` komutunu çalıştırın 
+3. `localhost:3000` portunda uygulama açılacaktır.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Setup
+1. Download project go to project location install required files with `npm install`
+2. Run the `npm start` command
+3. The application will open in the `localhost:3000` port.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## İndirin - Installation
+[Projeyi İndir]() <br>
+[Download Project]()
