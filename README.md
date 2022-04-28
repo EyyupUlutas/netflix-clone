@@ -17,6 +17,7 @@ https://user-images.githubusercontent.com/52197552/165832049-7c189aa9-dc31-4159-
 
 
 ## Demo
+https://netflix-clone-eyyupulutas.vercel.app
 
 ## Kurulum
 1. Projeyi indirin proje konumuna gidin `npm install` ile gerekli dosyaları kurun 
@@ -29,5 +30,5 @@ https://user-images.githubusercontent.com/52197552/165832049-7c189aa9-dc31-4159-
 3. The application will open in the `localhost:3000` port.
 
 ## İndirin - Installation
-[Projeyi İndir]() <br>
-[Download Project]()
+[Projeyi İndir](https://github.com/EyyupUlutas/netflix-clone/archive/refs/heads/main.zip) <br>
+[Download Project](https://github.com/EyyupUlutas/netflix-clone/archive/refs/heads/main.zip)
