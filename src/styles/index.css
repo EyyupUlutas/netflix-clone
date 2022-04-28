@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("~slick-carousel/slick/slick-theme.css");
-@import url("~slick-carousel/slick/slick.css");
-
-@import "react-alice-carousel/lib/alice-carousel.css";
 
 
 
