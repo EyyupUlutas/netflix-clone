@@ -8,23 +8,36 @@ import "../styles/index.css";
 
 class HomePage extends Component {
   render() {
+    const responsive = {
+      superLargeDesktop: {
+        // the naming can be any, depends on you.
+        breakpoint: { max: 4000, min: 3000 },
+        items: 5,
+      },
+      desktop: {
+        breakpoint: { max: 3000, min: 1024 },
+        items: 5,
+      },
+      tablet: {
+        breakpoint: { max: 1024, min: 464 },
+        items: 4,
+      },
+      mobile: {
+        breakpoint: { max: 464, min: 0 },
+        items: 1,
+      },
+    };
     return (
       <div className="flex justify-center flex-col pb-6 ">
         <Header />
 
         <div>
-          <HomePreview movies={movies} />
           <div
-            className="flex lg:absolute transition-all"
             style={{
-              bottom: -100,
+              zIndex: 100,
             }}
           >
-            <Slider zindex={100} title="Eyyüp, İzlemeye Devam Et">
-              {movies.map((movie, index) => (
-                <Slider.Item movie={movie} key={index}></Slider.Item>
-              ))}
-            </Slider>
+            <HomePreview movies={movies} />
           </div>
 
           <Slider zindex={99} title="Gündemdekiler">

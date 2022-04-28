@@ -30,15 +30,21 @@ function renderItem(data) {
 function renderSection(sections) {
   return sections.map((section, index) => (
     // bg-netflix-gray bg-opacity-20
-    <div className="flex flex-row border-y-[1px] rounded-md border-netflix-gray-2 pl-8 pr-16 py-8 items-center hover:cursor-pointer  ">
+    <div className="flex flex-row border-y-[1px] rounded-md border-netflix-gray-2 sm:pl-8 sm:pr-16 py-8 items-center hover:cursor-pointer  ">
       <div className="mr-5 font-netflixsansregular text-2xl">{index + 1}</div>
-      <img className="w-32 h-20 rounded-md" src={section?.image}></img>
+      <img
+        className="w-16 h-10 sm:w-32 sm:h-20  rounded-md"
+        src={section?.image}
+      ></img>
+      {/* w-32 h-20 */}
       <div className="pl-3 w-full">
         <div className="flex flex-row justify-between">
           <div className="font-netflixsansmedium">{section?.title}</div>
-          <div className="font-netflixsansregular">{section?.duration}</div>
+          <div className="font-netflixsansregular ml-3 sm:ml-0">
+            {section?.duration}
+          </div>
         </div>
-        <div className="text-opacity-80 text-sm text-white pt-2">
+        <div className="text-opacity-80 text-xs sm:text-sm text-white pt-2">
           {section?.description}
         </div>
       </div>
@@ -56,12 +62,12 @@ class Content extends Component {
   render() {
     const { movie, onClose } = this.props;
     return (
-      <div className="fixed  flex justify-center top-0 left-0 w-full h-full bg-black bg-opacity-80 z-[1000] overflow-y-auto">
-        <div className="absolute bg-netflix-black-2 z-[1000] w-7/12 rounded-md top-5">
+      <div className="fixed flex justify-center top-0 left-0 w-full h-full bg-black bg-opacity-80 z-[1000] overflow-y-auto">
+        <div className="absolute bg-netflix-black-2 z-[1000] w-[98%] lg:w-7/12 rounded-md top-5">
           <div className="h-full w-full relative">
             <button
               onClick={onClose}
-              className="flex absolute top-4 right-4 justify-center items-center  bg-netflix-black-2  w-9 h-9 rounded-full"
+              className="flex absolute top-4 right-4 justify-center items-center  bg-netflix-black-2  w-9 h-9 rounded-full z-20"
             >
               <CrossIcon width={18} height={18} color="white" />
             </button>
@@ -94,7 +100,7 @@ class Content extends Component {
                     this.setState({ muted: true });
                   }
                 }}
-                className="absolute bottom-0 right-10 "
+                className="absolute bottom-0 right-2 sm:right-10 "
               >
                 <button className="flex justify-center items-center border-opacity-70 fill-netflix-gray border-netflix-gray  w-10 h-10 border-2 rounded-full ml-2 transition-all duration-500	 hover:border-white hover:bg-netflix-gray hover:bg-opacity-30 hover:fill-white hover:opacity-100">
                   {this.state.muted ? (
@@ -193,7 +199,7 @@ class Content extends Component {
             <span className="text-2xl text-white font-netflixsansmedium">
               Benzerleri
             </span>
-            <div className="grid gap-5 max-h-netflix  grid-cols-3 relative	overflow-hidden w-full pt-5">
+            <div className="grid gap-3 sm:gap-5 max-h-netflix  grid-cols-3 relative	overflow-hidden w-full pt-5">
               {movies.map((movie) => (
                 <Card movie={movie}></Card>
               ))}

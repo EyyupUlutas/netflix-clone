@@ -30,31 +30,33 @@ class Header extends Component {
         className={` w-full h-16 fixed flex flex-row justify-between transition-all duration-500	items-center px-14 top-0 z-[999] header ${this.state.className}`}
       >
         <div className="flex flex-row ">
-          <img src={logo} width={90} height={90}></img>
-          <span className="font-netflixsansmedium text-white text-sm ml-10">
-            Ana Sayfa
-          </span>
-          <span className="font-netflixsansregular text-white text-sm ml-5">
-            Diziler
-          </span>
-          <span className="font-netflixsansregular text-white text-sm ml-5">
-            Filmler
-          </span>
-          <span className="font-netflixsansregular text-white text-sm ml-5">
-            Yeni ve Popüler
-          </span>
-          <span className="font-netflixsansregular text-white text-sm ml-5">
-            Listem
-          </span>
+          <img src={logo} width={90} height={90} className="w-22 h-7"></img>
+          <div className="hidden md:block">
+            <span className="font-netflixsansmedium text-white text-sm ml-10">
+              Ana Sayfa
+            </span>
+            <span className="font-netflixsansregular text-white text-sm ml-5">
+              Diziler
+            </span>
+            <span className="font-netflixsansregular text-white text-sm ml-5">
+              Filmler
+            </span>
+            <span className="font-netflixsansregular text-white text-sm ml-5">
+              Yeni ve Popüler
+            </span>
+            <span className="font-netflixsansregular text-white text-sm ml-5">
+              Listem
+            </span>
+          </div>
         </div>
         <div className="flex flex-row items-center">
-          <div>
+          <div className="hidden md:block">
             <img src={searchIcon} width={20} height={20}></img>
           </div>
-          <span className="text-white text-sm ml-6 font-netflixsansregular">
+          <span className="text-white text-sm ml-6 font-netflixsansregular hidden md:block">
             Çocuk
           </span>
-          <div className="ml-6">
+          <div className="ml-6 hidden md:block">
             <img src={notificationIcon} width={20} height={20}></img>
           </div>
           <div className="flex group items-center ml-6">

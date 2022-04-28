@@ -9,15 +9,17 @@ class Footer extends Component {
         style={{ zIndex: 10 }}
       >
         <div className="items-start w-3/4 flex gap-x-8 pl-3">
-          <a href="">
-            <FaFacebookF size={24} color="white"></FaFacebookF>
+          <a href="https://twitter.com/eyyupii" target="_blank">
+            <FaTwitter size={24} color="white"></FaTwitter>
           </a>
           <a href="https://www.instagram.com/eyyupii/" target="_blank">
             <FaInstagram size={24} color="white"></FaInstagram>
           </a>
-          <a href="https://twitter.com/eyyupii" target="_blank">
-            <FaTwitter size={24} color="white"></FaTwitter>
+
+          <a href="">
+            <FaFacebookF size={24} color="white"></FaFacebookF>
           </a>
+
           <a href="">
             <FaYoutube size={24} color="white"></FaYoutube>
           </a>

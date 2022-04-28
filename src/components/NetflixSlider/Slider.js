@@ -9,6 +9,8 @@ import useSizeElement from "./useSizeElement";
 import DownArrowIcon from "../Icons/DownArrowIcon";
 import "./Slider.css";
 
+
+
 const Slider = ({ children, activeSlide, zindex, title }) => {
   const [currentSlide, setCurrentSlide] = useState(activeSlide);
   const { width, elementRef } = useSizeElement();

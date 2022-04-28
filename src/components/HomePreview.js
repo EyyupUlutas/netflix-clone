@@ -1,15 +1,21 @@
 import React, { Component } from "react";
 import PlayIcon from "./Icons/PlayIcon";
 import InfoIcon from "./Icons/InfoIcon";
+import movies from "../data.json";
+import Slider from "../components/NetflixSlider";
+
 class HomePreview extends Component {
   render() {
     const { movies } = this.props;
     const movie = movies[5];
     return (
-      <div className="w-[100%] z-20 flex justify-center ">
-        <img className="object-cover " src={movie?.trailerimage}></img>
+      <div className="w-[100%] h-[15%] sm:h-[50%]  flex flex-col justify-center relative ">
+        <img
+          className="object-cover w-full h-full"
+          src={movie?.trailerimage}
+        ></img>
 
-        <div className="absolute md:bottom-44 top-32 left-3 md:left-4 lg:left-14 block">
+        <div className="absolute md:bottom-44 top-16 sm:top-32 left-3 md:left-4 lg:left-14 block">
           <img className="w-2/5  " src={movie?.movietextimage}></img>
           <span className="hidden md:inline-block w-2/5 py-6 text-sm lg:text-xl text-white font-netflixsansregular ">
             {movie?.description}
@@ -28,6 +34,18 @@ class HomePreview extends Component {
               </span>
             </button>
           </div>
+        </div>
+
+        <div className="flex xl:absolute xxl:-bottom-32 bottom-0  transition-all">
+          <Slider zindex={100} title="Eyyüp İzlemeye Devam Et">
+            {movies.map((movie, index) => (
+              // <div className="item">
+              //   <img src={movie.image}></img>
+              // </div>
+
+              <Slider.Item movie={movie} key={index}></Slider.Item>
+            ))}
+          </Slider>
         </div>
       </div>
     );
